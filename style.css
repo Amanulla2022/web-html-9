@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 600px;
+  margin-left: 30%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container,
+.head-div,
+.para-div,
+.list-div {
+  border: 2px solid red;
+  margin: 5px;
+  padding: 5px;
+}
+.sub-list-div {
+  border: 2px solid red;
+}
+.a,
+.b {
+  border: 2px solid red;
+  padding: 2.5px;
+}
+
+.b {
+  background-color: rgb(235, 229, 229);
+}
